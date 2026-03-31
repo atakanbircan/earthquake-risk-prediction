@@ -2,6 +2,15 @@
 
 This project is a **Machine Learning (Random Forest)** and **REST API (FastAPI)** application designed to predict potential seismic risk scores based on historical earthquake data. It includes a geographical visualization module using **GeoPandas** to map seismic activities across Turkey.
 
+## 📊 Data Source
+
+The dataset used in this project is sourced from **Kaggle**. It contains detailed historical earthquake records, including:
+* **Coordinates:** Latitude and Longitude of seismic events.
+* **Magnitude:** The intensity of the earthquakes.
+* **Depth:** How deep the earthquake occurred (km).
+
+This data is the backbone of our **Random Forest** model, allowing it to learn and predict regional risk scores based on historical patterns.
+
 ## 🚀 Features
 
 * **Machine Learning:** Predicts earthquake magnitude risk using a trained `RandomForestRegressor`.
